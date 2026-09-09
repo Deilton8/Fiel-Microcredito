@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="cc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16294f" />
+      <stop offset="100%" stop-color="#0a1730" />
+    </linearGradient>
+    <radialGradient id="cc-glow" cx="82%" cy="8%" r="65%">
+      <stop offset="0%" stop-color="#d9bb6c" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#d9bb6c" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cc-note1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ad8639" />
+      <stop offset="100%" stop-color="#8a6a2c" />
+    </linearGradient>
+    <linearGradient id="cc-note2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d9bb6c" />
+      <stop offset="100%" stop-color="#c9a24b" />
+    </linearGradient>
+    <linearGradient id="cc-note3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2e3b8" />
+      <stop offset="100%" stop-color="#e8d18a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="300" fill="url(#cc-bg)" />
+  <rect width="480" height="300" fill="url(#cc-glow)" />
+
+  <!-- coração, ligando ao ícone do cartão -->
+  <path d="M97 158 c -10 -13 -31 -10 -31 7 c 0 15 22 26 31 35 c 9 -9 31 -20 31 -35 c 0 -17 -21 -20 -31 -7 z"
+        fill="#e8d18a" opacity="0.9" />
+  <path d="M40 205 C 55 195, 65 213, 82 202" fill="none" stroke="#d9bb6c" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.55" />
+
+  <!-- moedas -->
+  <g stroke="#0a1730" stroke-width="2">
+    <ellipse cx="120" cy="231" rx="30" ry="10" fill="#e8d18a" />
+    <ellipse cx="120" cy="220" rx="30" ry="10" fill="#d9bb6c" />
+    <ellipse cx="120" cy="209" rx="30" ry="10" fill="#e8d18a" />
+  </g>
+
+  <!-- leque de 3 notas abstractas -->
+  <g transform="translate(295,172) rotate(-13)">
+    <rect x="-74" y="-46" width="148" height="92" rx="10" fill="url(#cc-note1)" stroke="#0a1730" stroke-width="1.5" opacity="0.95" />
+  </g>
+  <g transform="translate(311,166) rotate(-1)">
+    <rect x="-74" y="-46" width="148" height="92" rx="10" fill="url(#cc-note2)" stroke="#8a6a2c" stroke-width="1.5" />
+    <line x1="-52" y1="-29" x2="-30" y2="-29" stroke="#8a6a2c" stroke-width="1.5" opacity="0.6" stroke-linecap="round" />
+    <line x1="30" y1="29" x2="52" y2="29" stroke="#8a6a2c" stroke-width="1.5" opacity="0.6" stroke-linecap="round" />
+  </g>
+  <g transform="translate(330,160) rotate(12)">
+    <rect x="-74" y="-46" width="148" height="92" rx="10" fill="url(#cc-note3)" stroke="#ad8639" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="21" fill="none" stroke="#ad8639" stroke-width="1.5" opacity="0.75" />
+  </g>
+
+  <!-- base -->
+  <rect x="0" y="256" width="480" height="44" fill="#000000" opacity="0.14" />
+  <rect x="0" y="256" width="480" height="2" fill="#d9bb6c" opacity="0.18" />
+</svg>
